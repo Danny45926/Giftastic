@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sport Gifs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center">Sports</h1>
+    <br>
+    <br>
+    <div id="sport-buttons"></div>
+    <br>
+    <br>
+    <div class="container" id="btn">
+      <form id="sport-form">
+        <label id="add" for="sport-input">Enter a Sport</label>
+        <input type="text" class="form-control" id="sport-input">
+        <br>
+        <br>
+      </form>
+    <button onclick="submitButtonClicked()" type="button" id="add-sport" class="btn btn-success">Submit</button>
+            <br>
+            <br>
+            <div id="sports"> </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
