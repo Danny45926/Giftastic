@@ -1,4 +1,4 @@
-var sportsArray = ["Soccer", "Hockey", "Football", "Baseball", "Basketball" ];
+var sportsArray = ["Soccer", "Hockey", "Football", "Baseball", "Basketball", "Track & Field" ];
 
 $(document).ready(function() {
     for (var i = 0; i < sportsArray.length; i++) {
